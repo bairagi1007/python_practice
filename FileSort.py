@@ -17,7 +17,7 @@ fileType='*'
 #this will change the current directory
 os.chdir(dir)
 
-#this will list the files present in the dir with *.iso
+#this will list the files present in the dir with filetype
 filesPresent=glob.glob(fileType)
 
 #print the length of the file
